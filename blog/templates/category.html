@@ -1,0 +1,23 @@
+{% include 'partials/header.html' %} 
+    <div class="clearfix"></div>
+    <h1 class="text-center">POSTS BY CATEGORY</h1>
+    <div class="clearfix"></div>
+    <div class="row" style="margin-left: 1em;">      
+
+        {% for p in posts %}
+            <div class="col-md-4">
+                <div class="card mb-4" style="width: 18rem;">
+                    <a href="/blog/details/{{p.slug}}"><img src="{{ p.picture.url }}" class="card-img-top" alt="Picture-1"></a>
+                    <div class="card-body">
+                        <h2 class="card-title">{{ p.title }}</h2>
+                        <a href="/blog/details/{{p.slug}}" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>           
+        {% endfor %} 
+    </div>
+    
+     
+{% include 'partials/footer.html' %}  
+
+       

@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,300,400,600,700); 
+@import url(https://fonts.googleapis.com/css?family=Oswald:100,300,400,600,700); 
+@import url(https://fonts.googleapis.com/css?family=Anton:100,300,400,600,700);
+body {
+    background-color: #f6f6f8;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a {
+    transition: all .3s ease-in-out;
+}
+
+nav {
+    text-transform: uppercase!important;
+    box-shadow: 0px 4px 16px rgba(0,0,0,.4)!important; 
+    position: fixed!important;
+    width: 100%;  
+    z-index: 999; 
+}
+
+
+.nabvar {
+    width: 100%!important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
+.navbar-brand:hover {
+    color: #ff4500!important;
+}
+
+.navbar-nav,.navbar-brand {
+    font-family: 'Anton', sans-serif!important;
+}
+
+.nav-link:hover {
+    color: #e20a0a!important;
+}
+
+.bg-dark {
+    background-image: linear-gradient(
+        #333, #666
+    );
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px!important;
+    color: rgb(0, 0, 0)!important;
+    text-transform: uppercase;
+    font-weight: 600!important;
+} 
+
+h2 {
+    font-size: 50px!important;
+    color: #e20a2e!important;
+    text-transform: uppercase;
+    font-weight: 600!important;
+    /*font-family: 'Oswald';*/   
+}
+/*
+h3 {
+    font-size: 22px!important;
+    color: #333!important;
+    font-style: italic;
+    font-weight: 600;
+}
+*/
+h4 span{
+    /* font-size: 14px!important;
+    color: white!important;
+    background-color: #e20a2e;
+    padding: 4px 7px; */
+    text-transform: uppercase;
+    /* font-weight: bold;
+    border-radius: 4px; */
+}
+
+ul, li {
+    list-style: none;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;    
+    margin-left: -40px;
+
+}
+
+.tags li span{    
+    /* font-size: 14px!important;
+    color: white!important;
+    background-color: rgb(105, 11, 228)!important;
+    
+    font-weight: 600; */
+    margin-right: 15px;
+    text-transform: uppercase;
+    /* border-radius: 4px;
+    padding: 4px 7px; */
+}
+
+.author strong {
+    color: #e20a0a;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+.upper {
+    text-transform: uppercase;
+}
+
